@@ -22,7 +22,7 @@ and:
 
 ```gradle
 dependencies {
-    compile 'com.github.jitpack:android-example:{latest version}'
+    implementation 'com.github.zxintg:floataction:{latest version}'
 }
 ```
 
@@ -50,6 +50,6 @@ If you add a sample app to the same repo then your app needs to have a dependenc
 
 ```gradle
     dependencies {
-        compile project(':library')
+        implementation project(':library')
     }
 ```
